@@ -30,7 +30,8 @@ public class Android_components {
     
 }
 	public static void ClosetheAPP() {
+		System.out.println("driver closed successfully");
 	driver.quit();
-	System.out.println("driver closed successfully");
+	
 	}
 }
